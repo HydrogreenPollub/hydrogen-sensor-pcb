@@ -1,0 +1,3 @@
+[submodule "symbol-library-kicad"]
+	path = symbol-library-kicad
+	url = https://github.com/HydrogreenPollub/symbol-library-kicad.git
