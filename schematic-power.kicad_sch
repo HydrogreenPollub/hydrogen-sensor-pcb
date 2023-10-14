@@ -865,7 +865,7 @@
     (pin "1" (uuid 1713f274-c518-496f-8337-dae75c929662))
     (pin "2" (uuid 49f41edd-51e8-429d-80c3-fe7031b37407))
     (instances
-      (project "hydrogen-sensor-pcb"
+      (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
           (reference "C16") (unit 1)
         )
@@ -890,7 +890,7 @@
     )
     (pin "1" (uuid b58ed54d-0c24-496d-b24c-7b55adf2d794))
     (instances
-      (project "hydrogen-sensor-pcb"
+      (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
           (reference "#PWR039") (unit 1)
         )
@@ -916,7 +916,7 @@
     (pin "1" (uuid 26e1e653-0907-4269-8539-87e28de2f0ed))
     (pin "2" (uuid a3fa880d-8b23-4e32-9135-33e0da85f87a))
     (instances
-      (project "hydrogen-sensor-pcb"
+      (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
           (reference "C22") (unit 1)
         )
@@ -942,7 +942,7 @@
     (pin "1" (uuid bb698bc7-8780-4ac7-a102-d4c917a60a30))
     (pin "2" (uuid 04dc9dd3-89f9-4f4b-b5a6-043c4f17028e))
     (instances
-      (project "hydrogen-sensor-pcb"
+      (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
           (reference "C11") (unit 1)
         )
@@ -967,7 +967,7 @@
     )
     (pin "1" (uuid fe7356ac-bdde-4994-85cd-b8f82fc267df))
     (instances
-      (project "hydrogen-sensor-pcb"
+      (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
           (reference "#PWR019") (unit 1)
         )
@@ -978,7 +978,7 @@
   (symbol (lib_id "Hydros:LM76202-Q1") (at 98.425 57.785 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1577413f-c8f9-4667-b5e9-2f100d1af86f)
-    (property "Reference" "U" (at 98.425 55.88 0)
+    (property "Reference" "U?" (at 98.425 55.88 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM76202-Q1" (at 106.045 81.915 0)
@@ -990,24 +990,24 @@
     (property "Datasheet" "" (at 102.235 57.785 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 9ea00f70-62fb-42c7-9974-7cf97e3f8606))
-    (pin "" (uuid 9ea00f70-62fb-42c7-9974-7cf97e3f8606))
-    (pin "" (uuid 9ea00f70-62fb-42c7-9974-7cf97e3f8606))
-    (pin "" (uuid 9ea00f70-62fb-42c7-9974-7cf97e3f8606))
-    (pin "" (uuid 9ea00f70-62fb-42c7-9974-7cf97e3f8606))
-    (pin "" (uuid 9ea00f70-62fb-42c7-9974-7cf97e3f8606))
-    (pin "" (uuid 9ea00f70-62fb-42c7-9974-7cf97e3f8606))
-    (pin "" (uuid 9ea00f70-62fb-42c7-9974-7cf97e3f8606))
-    (pin "" (uuid 9ea00f70-62fb-42c7-9974-7cf97e3f8606))
-    (pin "" (uuid 9ea00f70-62fb-42c7-9974-7cf97e3f8606))
-    (pin "" (uuid 9ea00f70-62fb-42c7-9974-7cf97e3f8606))
-    (pin "" (uuid 9ea00f70-62fb-42c7-9974-7cf97e3f8606))
+    (pin "" (uuid 9ea00f70-62fb-42c7-9974-7cf97e3f8611))
+    (pin "" (uuid 9ea00f70-62fb-42c7-9974-7cf97e3f8611))
+    (pin "" (uuid 9ea00f70-62fb-42c7-9974-7cf97e3f8611))
+    (pin "" (uuid 9ea00f70-62fb-42c7-9974-7cf97e3f8611))
+    (pin "" (uuid 9ea00f70-62fb-42c7-9974-7cf97e3f8611))
+    (pin "" (uuid 9ea00f70-62fb-42c7-9974-7cf97e3f8611))
+    (pin "" (uuid 9ea00f70-62fb-42c7-9974-7cf97e3f8611))
+    (pin "" (uuid 9ea00f70-62fb-42c7-9974-7cf97e3f8611))
+    (pin "" (uuid 9ea00f70-62fb-42c7-9974-7cf97e3f8611))
+    (pin "" (uuid 9ea00f70-62fb-42c7-9974-7cf97e3f8611))
+    (pin "" (uuid 9ea00f70-62fb-42c7-9974-7cf97e3f8611))
+    (pin "" (uuid 9ea00f70-62fb-42c7-9974-7cf97e3f8611))
     (instances
-      (project "hydrogen-sensor-pcb"
-        (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
-          (reference "U") (unit 1)
-        )
+      (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755"
+          (reference "U?") (unit 1)
+        )
+        (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
           (reference "U") (unit 1)
         )
       )
@@ -1031,7 +1031,7 @@
     )
     (pin "1" (uuid a1eb0d31-43ed-45f0-bf26-d2680add8074))
     (instances
-      (project "hydrogen-sensor-pcb"
+      (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
           (reference "#PWR034") (unit 1)
         )
@@ -1057,7 +1057,7 @@
     (pin "1" (uuid 219ce47c-09b9-46fc-9d97-d1223d90ac02))
     (pin "2" (uuid 14a6bcb3-ff92-497c-8275-7aea5a7bd4da))
     (instances
-      (project "hydrogen-sensor-pcb"
+      (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
           (reference "C9") (unit 1)
         )
@@ -1083,7 +1083,7 @@
     (pin "1" (uuid a000dfca-c5b9-4aee-b981-53e7bf92f341))
     (pin "2" (uuid 52075d2d-8376-4bf1-ab09-4179f71850bf))
     (instances
-      (project "hydrogen-sensor-pcb"
+      (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
           (reference "L1") (unit 1)
         )
@@ -1108,7 +1108,7 @@
     )
     (pin "1" (uuid cc5d792a-aac2-47bd-9ce1-e91d6b87d834))
     (instances
-      (project "hydrogen-sensor-pcb"
+      (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
           (reference "#PWR037") (unit 1)
         )
@@ -1134,7 +1134,7 @@
     (pin "1" (uuid 159d197c-2a1e-4b55-847c-46ce61d56d9a))
     (pin "2" (uuid 2501b68e-c724-4f2c-99d5-ea7d8008b075))
     (instances
-      (project "hydrogen-sensor-pcb"
+      (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
           (reference "C23") (unit 1)
         )
@@ -1166,7 +1166,7 @@
     (pin "7" (uuid 5ddef54b-da67-444a-b110-c86799b58e40))
     (pin "8" (uuid e7bfc4c7-adea-41d7-8e02-5a20f072c417))
     (instances
-      (project "hydrogen-sensor-pcb"
+      (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
           (reference "U4") (unit 1)
         )
@@ -1192,7 +1192,7 @@
     (pin "1" (uuid 6a6be002-3fde-435d-af2a-fd5f71f10769))
     (pin "2" (uuid d66dabbf-0aba-40f6-8af6-a1a76102caba))
     (instances
-      (project "hydrogen-sensor-pcb"
+      (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
           (reference "R8") (unit 1)
         )
@@ -1218,7 +1218,7 @@
     (pin "1" (uuid 7e97dcc1-cb08-4b34-abbd-ac9b5cb64cb9))
     (pin "2" (uuid 0ee6c9c1-982b-4685-9074-15b34bd2cc74))
     (instances
-      (project "hydrogen-sensor-pcb"
+      (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
           (reference "C12") (unit 1)
         )
@@ -1244,7 +1244,7 @@
     (pin "1" (uuid ff357b0e-610a-4491-bb2f-630a7af7f0b3))
     (pin "2" (uuid 20ad19bd-adfc-46d2-9e00-a4e64eb1b529))
     (instances
-      (project "hydrogen-sensor-pcb"
+      (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
           (reference "C25") (unit 1)
         )
@@ -1269,7 +1269,7 @@
     )
     (pin "1" (uuid be0626fa-89d0-41be-9a34-49d73d9689fd))
     (instances
-      (project "hydrogen-sensor-pcb"
+      (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
           (reference "#PWR040") (unit 1)
         )
@@ -1295,7 +1295,7 @@
     (pin "1" (uuid ae6b71d4-f4e8-4d74-bcb9-b8d0c6efad95))
     (pin "2" (uuid dd25c1a9-9491-4133-b4ae-1953bac27b59))
     (instances
-      (project "hydrogen-sensor-pcb"
+      (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
           (reference "R6") (unit 1)
         )
@@ -1321,7 +1321,7 @@
     (pin "1" (uuid 9dbe1f41-c2a9-448b-b519-418333bab077))
     (pin "2" (uuid edddc237-d33a-459b-9f75-f74b65ea81e8))
     (instances
-      (project "hydrogen-sensor-pcb"
+      (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
           (reference "R16") (unit 1)
         )
@@ -1347,7 +1347,7 @@
     (pin "1" (uuid 1748b43c-5f31-470d-8c27-74de7ed3162e))
     (pin "2" (uuid d52b84cd-8cb8-4906-873f-0bca19696bc4))
     (instances
-      (project "hydrogen-sensor-pcb"
+      (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
           (reference "R13") (unit 1)
         )
@@ -1373,7 +1373,7 @@
     (pin "1" (uuid ebc1a162-aa02-4be1-bdd4-955369bd3a50))
     (pin "2" (uuid 16fa9041-7d45-4793-9605-4dac000ff839))
     (instances
-      (project "hydrogen-sensor-pcb"
+      (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
           (reference "C17") (unit 1)
         )
@@ -1398,7 +1398,7 @@
     )
     (pin "1" (uuid 7462a151-2165-4f0b-b50d-08222bb5579b))
     (instances
-      (project "hydrogen-sensor-pcb"
+      (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
           (reference "#PWR030") (unit 1)
         )
@@ -1424,7 +1424,7 @@
     (pin "1" (uuid d651970a-b0b9-47aa-81c9-7a3379444c93))
     (pin "2" (uuid 3cc30029-762f-4729-9309-16ebfb84af06))
     (instances
-      (project "hydrogen-sensor-pcb"
+      (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
           (reference "C10") (unit 1)
         )
@@ -1450,7 +1450,7 @@
     (pin "1" (uuid 4000c577-d6ef-4754-be07-8d6d636a832b))
     (pin "2" (uuid a56225c7-6d65-4ad2-9360-8ffd7c8e4286))
     (instances
-      (project "hydrogen-sensor-pcb"
+      (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
           (reference "R14") (unit 1)
         )
@@ -1476,7 +1476,7 @@
     (pin "1" (uuid f8922ece-bba1-474f-9423-4f8b9c92e140))
     (pin "2" (uuid 86524f7a-425e-40be-8c1e-d3da0aace4d0))
     (instances
-      (project "hydrogen-sensor-pcb"
+      (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
           (reference "R12") (unit 1)
         )
@@ -1501,7 +1501,7 @@
     )
     (pin "1" (uuid 1256d132-6ce4-49c0-83ca-1b1f6eb4ad16))
     (instances
-      (project "hydrogen-sensor-pcb"
+      (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
           (reference "#PWR027") (unit 1)
         )
@@ -1527,7 +1527,7 @@
     (pin "1" (uuid d1cccb8c-c605-4630-9c1d-d66e2477e2b4))
     (pin "2" (uuid 80856a40-4988-48a9-9d21-1a16ff428c30))
     (instances
-      (project "hydrogen-sensor-pcb"
+      (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
           (reference "D1") (unit 1)
         )
@@ -1552,7 +1552,7 @@
     )
     (pin "1" (uuid f83498d7-0ac6-46f8-ac68-aa2db38c6d09))
     (instances
-      (project "hydrogen-sensor-pcb"
+      (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
           (reference "#PWR018") (unit 1)
         )
@@ -1578,7 +1578,7 @@
     (pin "1" (uuid 1b473aa1-a171-4d6b-a2cc-9aad1d257b76))
     (pin "2" (uuid 6af52930-ac79-40e0-8735-9650fe425fec))
     (instances
-      (project "hydrogen-sensor-pcb"
+      (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
           (reference "C20") (unit 1)
         )
@@ -1603,7 +1603,7 @@
     )
     (pin "1" (uuid 9ff8752b-6670-4a57-9419-8b97a6e03ba7))
     (instances
-      (project "hydrogen-sensor-pcb"
+      (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
           (reference "#PWR016") (unit 1)
         )
@@ -1629,7 +1629,7 @@
     (pin "1" (uuid e09ba552-8794-440a-aad6-eef73bc5a7ad))
     (pin "2" (uuid 45d65720-d5e1-4fe8-8add-2ee138b973c4))
     (instances
-      (project "hydrogen-sensor-pcb"
+      (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
           (reference "R9") (unit 1)
         )
@@ -1655,7 +1655,7 @@
     (pin "1" (uuid dc607f61-5b9f-46dc-8651-f0651376ca70))
     (pin "2" (uuid 117c3f1d-c52d-4036-a784-be9237657993))
     (instances
-      (project "hydrogen-sensor-pcb"
+      (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
           (reference "C18") (unit 1)
         )
@@ -1680,7 +1680,7 @@
     )
     (pin "1" (uuid 767ddd7b-bbbe-4410-88d1-ed0debafee41))
     (instances
-      (project "hydrogen-sensor-pcb"
+      (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
           (reference "#PWR028") (unit 1)
         )
@@ -1706,7 +1706,7 @@
     (pin "1" (uuid 7a5a3ef7-7415-482c-84aa-5c9aa21d2242))
     (pin "2" (uuid 3f3d9876-456d-4759-9f8a-b2cf6be4ac5b))
     (instances
-      (project "hydrogen-sensor-pcb"
+      (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
           (reference "L2") (unit 1)
         )
@@ -1731,7 +1731,7 @@
     )
     (pin "1" (uuid a4aa9cf2-fdd0-40ba-ae37-df69ab063231))
     (instances
-      (project "hydrogen-sensor-pcb"
+      (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
           (reference "#PWR038") (unit 1)
         )
@@ -1757,7 +1757,7 @@
     (pin "1" (uuid e379bddd-c2a8-4d37-a4bc-e207e1ecb4e2))
     (pin "2" (uuid a7ebe1bb-1d22-4683-89cb-37f65bbd4389))
     (instances
-      (project "hydrogen-sensor-pcb"
+      (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
           (reference "R15") (unit 1)
         )
@@ -1783,7 +1783,7 @@
     (pin "1" (uuid 7d3ed3cf-8e58-49a9-a1b3-bd7c612fd880))
     (pin "2" (uuid 3ae57160-5607-487d-bea2-1399ae5a35f1))
     (instances
-      (project "hydrogen-sensor-pcb"
+      (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
           (reference "C19") (unit 1)
         )
@@ -1809,7 +1809,7 @@
     (pin "1" (uuid 2374d340-3a14-4813-97a3-dc5544a1c24f))
     (pin "2" (uuid 867ddb82-35e3-417f-8329-42c1bbaee33e))
     (instances
-      (project "hydrogen-sensor-pcb"
+      (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
           (reference "C24") (unit 1)
         )
@@ -1841,7 +1841,7 @@
     (pin "7" (uuid 4f5e3ac4-d2c9-4e67-abea-a41610bd43a3))
     (pin "8" (uuid 353a79aa-da3d-4049-a751-85b4e56e55c8))
     (instances
-      (project "hydrogen-sensor-pcb"
+      (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
           (reference "U9") (unit 1)
         )
@@ -1867,7 +1867,7 @@
     (pin "1" (uuid 6798f797-37e9-475c-b086-c93f6a7b1227))
     (pin "2" (uuid 5e9b7693-0f2a-4cf9-bb0e-fdb6e6e100b7))
     (instances
-      (project "hydrogen-sensor-pcb"
+      (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
           (reference "C21") (unit 1)
         )
@@ -1893,7 +1893,7 @@
     (pin "1" (uuid 5e4b4b56-6b0a-4be0-9f8a-c86683d4360b))
     (pin "2" (uuid 80bea65e-4a7c-4f75-8472-299d559be318))
     (instances
-      (project "hydrogen-sensor-pcb"
+      (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
           (reference "R10") (unit 1)
         )
@@ -1918,7 +1918,7 @@
     )
     (pin "1" (uuid ee19102d-4563-489d-a9e8-00bb1125bada))
     (instances
-      (project "hydrogen-sensor-pcb"
+      (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
           (reference "#PWR020") (unit 1)
         )
@@ -1944,7 +1944,7 @@
     (pin "1" (uuid aa36cbf0-0fcd-40ca-9409-b1e797824ac6))
     (pin "2" (uuid f2a92d71-e27f-4b53-aab9-2851a4e3ec82))
     (instances
-      (project "hydrogen-sensor-pcb"
+      (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
           (reference "R11") (unit 1)
         )
@@ -1970,7 +1970,7 @@
     (pin "1" (uuid 69025afb-1498-43d3-bbdf-44542764ec1a))
     (pin "2" (uuid 3b80b274-0985-4bb4-b00a-88c6b3a46dbe))
     (instances
-      (project "hydrogen-sensor-pcb"
+      (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
           (reference "C26") (unit 1)
         )
@@ -1995,7 +1995,7 @@
     )
     (pin "1" (uuid 2156a387-de8c-4b91-9a71-63b2b68f6f98))
     (instances
-      (project "hydrogen-sensor-pcb"
+      (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
           (reference "#PWR036") (unit 1)
         )
@@ -2020,7 +2020,7 @@
     )
     (pin "1" (uuid 53d8f254-3139-406b-a71a-0910bd795a44))
     (instances
-      (project "hydrogen-sensor-pcb"
+      (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
           (reference "#PWR035") (unit 1)
         )
@@ -2046,7 +2046,7 @@
     (pin "1" (uuid 31c751e1-a3b4-4bca-832d-ece6b4b3bb76))
     (pin "2" (uuid 250c44d0-7b89-4325-9597-ee629cba9a76))
     (instances
-      (project "hydrogen-sensor-pcb"
+      (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
           (reference "R7") (unit 1)
         )

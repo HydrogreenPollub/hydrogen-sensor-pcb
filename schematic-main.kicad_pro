@@ -247,7 +247,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "hydrogen-sensor-pcb.kicad_pro",
+    "filename": "schematic-main.kicad_pro",
     "version": 1
   },
   "net_settings": {
