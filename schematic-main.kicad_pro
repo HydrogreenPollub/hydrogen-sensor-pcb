@@ -299,6 +299,23 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "c9ad7189-d3b2-414a-9743-efd8e57cd755",
+      ""
+    ],
+    [
+      "ed70203f-44bf-4bdc-8b45-a710eb8fc309",
+      "Power "
+    ],
+    [
+      "f92f58ec-64e0-437c-bc00-8ae46a3b3054",
+      "MCU"
+    ],
+    [
+      "e4695f4d-6fa6-4597-a598-6a2f28a255eb",
+      "IO"
+    ]
+  ],
   "text_variables": {}
 }
