@@ -1756,7 +1756,7 @@
     (property "Value" "10u" (at 167.64 58.4199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 164.7952 60.96 0)
+    (property "Footprint" "Capacitor_Tantalum_SMD:EEHZT1E331UP" (at 164.7952 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 163.83 57.15 0)
