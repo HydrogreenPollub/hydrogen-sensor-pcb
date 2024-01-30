@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SRN3015TA-4R7M
+D Shielded power inductor
+K
+F http://www.bourns.com/docs/Product-Datasheets/SRN3015TA.pdf
+$ENDCMP
+#
+#End Doc Library

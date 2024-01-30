@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SIR186LDP-T1-RE3
+D MOSFET N-CHANNEL 60-V (D-S) MOSFET
+K
+F https://www.vishay.com/docs/63001/sir186ldp.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM5106MMX_NOPB
+D 100V Half Bridge Gate Driver with Programmable Dead-Time
+K
+F http://www.ti.com/lit/gpn/LM5106
+$ENDCMP
+#
+#End Doc Library

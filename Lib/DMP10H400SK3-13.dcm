@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DMP10H400SK3-13
+D MOSFET 100V P-CH MOSFET
+K
+F https://www.diodes.com/assets/Datasheets/DMP10H400SK3.pdf
+$ENDCMP
+#
+#End Doc Library

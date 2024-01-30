@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SMMBT3906LT1G
+D PNP Bipolar Transistor, -200 mA -40 V, 3-pin SOT-23
+K
+F http://www.onsemi.com/pub/Collateral/MMBT3906LT1-D.PDF
+$ENDCMP
+#
+#End Doc Library

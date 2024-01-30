@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CSD19531Q5AT
+D Texas Instruments CSD19531Q5AT N-channel MOSFET Transistor, 110 A, 100 V, 8-Pin VSON
+K
+F http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=CSD19531Q5A&&fileType=pdf
+$ENDCMP
+#
+#End Doc Library

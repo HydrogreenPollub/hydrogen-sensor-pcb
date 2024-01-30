@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MBRD20100CT-13
+D Schottky Diodes & Rectifiers 20A Dual SBR 100Vrrm 150Ifsm 0.84
+K
+F https://www.diodes.com/assets/Datasheets/MBRD20100CT.pdf
+$ENDCMP
+#
+#End Doc Library

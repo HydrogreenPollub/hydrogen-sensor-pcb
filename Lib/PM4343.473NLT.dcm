@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PM4343.473NLT
+D Fixed Inductors 47uH 6.5A 6.5mm AEC-Q200 +/-20%
+K
+F https://www.mouser.be/datasheet/2/336/P770-1663929.pdf
+$ENDCMP
+#
+#End Doc Library
