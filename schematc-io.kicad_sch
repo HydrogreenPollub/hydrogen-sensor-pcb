@@ -1782,6 +1782,12 @@
 		(uuid "436b6db8-0f31-4289-bf11-2db2934a3136")
 	)
 	(junction
+		(at 137.16 133.731)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47402c13-88d6-4f7c-9162-e4a9798a448a")
+	)
+	(junction
 		(at 252.73 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1798,6 +1804,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ab3253a-4d7c-4511-a2a5-01ac471e2759")
+	)
+	(junction
+		(at 147.447 133.731)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8cdbf9f8-2fb4-41d2-9842-7c254ac46c48")
 	)
 	(junction
 		(at 241.3 67.31)
@@ -2137,6 +2149,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.447 135.001) (xy 147.447 133.731)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55df0f17-10f9-4a4e-a6b1-e7975aec5742")
+	)
+	(wire
+		(pts
 			(xy 167.64 57.15) (xy 167.64 62.23)
 		)
 		(stroke
@@ -2427,6 +2449,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 133.604) (xy 123.063 133.604)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aee4a17b-259c-43eb-b9d9-3b7717e81a1b")
+	)
+	(wire
+		(pts
 			(xy 252.73 54.61) (xy 252.73 55.88)
 		)
 		(stroke
@@ -2444,6 +2476,16 @@
 			(type default)
 		)
 		(uuid "b32a2861-1a0f-4559-9428-d71af91b9b45")
+	)
+	(wire
+		(pts
+			(xy 147.447 126.111) (xy 150.114 126.111)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3e06001-eae5-4922-8800-d6df4ab09f0f")
 	)
 	(wire
 		(pts
@@ -2474,6 +2516,16 @@
 			(type default)
 		)
 		(uuid "bc6469f2-b16d-417a-93d7-727ce9160a2f")
+	)
+	(wire
+		(pts
+			(xy 73.914 160.02) (xy 72.644 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bca8cf19-6e15-4a62-9b2a-61e9228db49d")
 	)
 	(wire
 		(pts
@@ -2534,6 +2586,16 @@
 			(type default)
 		)
 		(uuid "d02a6dd5-1df7-4ce7-a234-3344698c1d79")
+	)
+	(wire
+		(pts
+			(xy 123.063 133.731) (xy 137.16 133.731)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d103cda5-ecd7-4d18-8925-64fa9d538f00")
 	)
 	(wire
 		(pts
@@ -2667,6 +2729,26 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 133.731) (xy 147.447 133.731)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f077a7e8-4289-42bd-8ef1-e7e1af52d4fd")
+	)
+	(wire
+		(pts
+			(xy 123.063 133.604) (xy 123.063 133.731)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f632f173-278f-4866-a5ae-7a5f837af662")
+	)
+	(wire
+		(pts
 			(xy 265.43 55.88) (xy 267.97 55.88)
 		)
 		(stroke
@@ -2795,6 +2877,29 @@
 		)
 		(uuid "ab6c7844-fcb6-46a9-b034-7970c0c9bfd9")
 	)
+	(text "Rezystory tworzą dzielnik napięcia \nPrzycisk przełączny podaje +12V z cewki\nLub podciągnięcie do góry i przycisk tylko sygnalizacyjny"
+		(exclude_from_sim no)
+		(at 150.622 149.606 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "b83f0107-8c60-4774-a69c-8c718224084f")
+	)
+	(text "Emergency button"
+		(exclude_from_sim no)
+		(at 123.571 117.475 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "c12e6d49-0992-4eee-8863-5dab321a1b50")
+	)
 	(text "Signal diodes"
 		(exclude_from_sim no)
 		(at 219.075 123.19 0)
@@ -2902,6 +3007,18 @@
 		)
 		(uuid "53979c52-569d-4e69-8e68-072c7b6d6cfc")
 	)
+	(hierarchical_label "Emergency_MCU"
+		(shape input)
+		(at 123.19 133.604 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5f5e112b-173b-4934-b1e7-725413a535aa")
+	)
 	(hierarchical_label "LED_MCU_STATUS"
 		(shape input)
 		(at 212.09 130.81 180)
@@ -2925,6 +3042,18 @@
 			(justify left)
 		)
 		(uuid "88626f0f-6cc7-486e-a628-b43e88a27299")
+	)
+	(hierarchical_label "Emergency_button"
+		(shape input)
+		(at 150.114 126.111 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8d87d02d-f4a0-499d-8d18-38cbf676dc3e")
 	)
 	(hierarchical_label "CANH"
 		(shape bidirectional)
@@ -2997,6 +3126,18 @@
 			(justify right)
 		)
 		(uuid "e11d1a05-2b78-4a86-909d-1dd4c548e242")
+	)
+	(hierarchical_label "I{slash}O_4_MCU"
+		(shape input)
+		(at 73.914 160.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e8fa0cfb-9bd2-4ded-9c83-cde837db2704")
 	)
 	(hierarchical_label "5V_MOTOR"
 		(shape input)
@@ -4062,6 +4203,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 137.16 129.921 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3d3533f6-f180-4bd5-883c-2ebfff0deb45")
+		(property "Reference" "R38"
+			(at 132.08 129.921 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "(10k)"
+			(at 134.62 129.921 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 135.382 129.921 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 129.921 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 129.921 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c82b5d84-d353-4044-8b07-54a24aed8d66")
+		)
+		(pin "2"
+			(uuid "364734b2-b109-4c32-82f5-c9fb2ed077f9")
+		)
+		(instances
+			(project "schematic-main"
+				(path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/e4695f4d-6fa6-4597-a598-6a2f28a255eb"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:2N3904")
 		(at 250.19 62.23 0)
 		(unit 1)
@@ -4202,6 +4410,73 @@
 			(project "schematic-main"
 				(path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/e4695f4d-6fa6-4597-a598-6a2f28a255eb"
 					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 147.447 129.921 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "44f95194-3f19-4465-b0ba-44ea356ffa74")
+		(property "Reference" "R36"
+			(at 142.367 129.921 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "30k"
+			(at 144.907 129.921 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 145.669 129.921 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.447 129.921 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.447 129.921 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7dbbf2d5-7eb1-44db-85fe-cac36365d1ad")
+		)
+		(pin "2"
+			(uuid "b4281ea3-232e-4ec7-bb57-abb753211c19")
+		)
+		(instances
+			(project "schematic-main"
+				(path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/e4695f4d-6fa6-4597-a598-6a2f28a255eb"
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -4893,6 +5168,140 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 147.447 142.621 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7cc35804-4a73-41ea-b5de-793150c47bdc")
+		(property "Reference" "#PWR053"
+			(at 147.447 148.971 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 147.447 147.701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.447 142.621 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.447 142.621 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.447 142.621 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1429b761-80ae-4c2a-9528-77b51f26f149")
+		)
+		(instances
+			(project "schematic-main"
+				(path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/e4695f4d-6fa6-4597-a598-6a2f28a255eb"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 68.834 160.02 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "804843ce-7b44-405e-b85d-6bcfe4cee4ac")
+		(property "Reference" "R35"
+			(at 68.834 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 68.834 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 68.834 158.242 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.834 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.834 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e52fb703-2ab8-476d-8302-1861b9253c5e")
+		)
+		(pin "2"
+			(uuid "0fab0b6b-bef5-4b63-941d-8efc363103d3")
+		)
+		(instances
+			(project "schematic-main"
+				(path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/e4695f4d-6fa6-4597-a598-6a2f28a255eb"
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 217.17 139.7 90)
 		(unit 1)
@@ -5241,6 +5650,72 @@
 			(project "schematic-main"
 				(path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/e4695f4d-6fa6-4597-a598-6a2f28a255eb"
 					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 137.16 126.111 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e531fa8-8732-4079-aab3-57ef09578f12")
+		(property "Reference" "#PWR054"
+			(at 137.16 129.921 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 137.16 121.666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 126.111 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 126.111 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 126.111 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77bd3e5f-4a49-4e50-9510-a353ef2349ea")
+		)
+		(instances
+			(project "schematic-main"
+				(path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/e4695f4d-6fa6-4597-a598-6a2f28a255eb"
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -6202,6 +6677,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 147.447 138.811 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3e29517-63b9-4d10-a33b-2de7cc498047")
+		(property "Reference" "R37"
+			(at 142.367 138.811 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 144.907 138.811 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 145.669 138.811 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.447 138.811 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.447 138.811 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35149c5b-e366-445b-aaea-1bb8590e01ae")
+		)
+		(pin "2"
+			(uuid "374881ab-ce55-41e8-af07-aa43a881f599")
+		)
+		(instances
+			(project "schematic-main"
+				(path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/e4695f4d-6fa6-4597-a598-6a2f28a255eb"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:2N3904")
 		(at 176.53 62.23 0)
 		(unit 1)
@@ -6736,6 +7278,70 @@
 			(project "schematic-main"
 				(path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/e4695f4d-6fa6-4597-a598-6a2f28a255eb"
 					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 65.024 160.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea87efe7-caff-4f63-b41d-b9a3c3ac4576")
+		(property "Reference" "TP12"
+			(at 56.134 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "I/O_4"
+			(at 56.134 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical"
+			(at 65.024 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 65.024 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 65.024 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d96c830-80ab-4441-91ba-363229e3044b")
+		)
+		(instances
+			(project "schematic-main"
+				(path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/e4695f4d-6fa6-4597-a598-6a2f28a255eb"
+					(reference "TP12")
 					(unit 1)
 				)
 			)

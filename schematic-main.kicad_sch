@@ -1918,7 +1918,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 130.81) (xy 184.15 130.81)
+			(xy 179.07 128.016) (xy 184.277 128.016)
 		)
 		(stroke
 			(width 0)
@@ -1948,7 +1948,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 50.8) (xy 186.69 133.35)
+			(xy 186.817 50.8) (xy 186.817 130.556)
 		)
 		(stroke
 			(width 0)
@@ -1958,7 +1958,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 130.81) (xy 184.15 53.34)
+			(xy 184.277 128.016) (xy 184.277 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2018,6 +2018,16 @@
 	)
 	(wire
 		(pts
+			(xy 188.976 132.588) (xy 188.976 48.387)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32e07035-fe1a-4680-bb17-e52e32d27456")
+	)
+	(wire
+		(pts
 			(xy 115.57 96.52) (xy 123.19 96.52)
 		)
 		(stroke
@@ -2038,7 +2048,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 128.27) (xy 179.07 128.27)
+			(xy 181.737 125.476) (xy 179.07 125.476)
 		)
 		(stroke
 			(width 0)
@@ -2058,7 +2068,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 53.34) (xy 184.15 53.34)
+			(xy 179.07 53.34) (xy 184.277 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2208,6 +2218,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.703 81.28) (xy 163.703 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cdf3173-99ff-4b02-943b-94f9435a7ef3")
+	)
+	(wire
+		(pts
 			(xy 114.3 128.27) (xy 134.62 128.27)
 		)
 		(stroke
@@ -2238,7 +2258,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 55.88) (xy 181.61 55.88)
+			(xy 179.07 55.88) (xy 181.737 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2248,7 +2268,17 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 50.8) (xy 186.69 50.8)
+			(xy 116.713 159.004) (xy 134.62 159.004)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3662c49-748e-4dbd-afe0-55122c46fc66")
+	)
+	(wire
+		(pts
+			(xy 179.07 50.8) (xy 186.817 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2278,13 +2308,23 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 133.35) (xy 179.07 133.35)
+			(xy 186.817 130.556) (xy 179.07 130.556)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e261ba9b-3957-4278-8f5c-7306d4c437fa")
+	)
+	(wire
+		(pts
+			(xy 179.07 48.387) (xy 188.976 48.387)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e493c2a6-98af-4e3f-bfea-ff51c945ef8a")
 	)
 	(wire
 		(pts
@@ -2298,7 +2338,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 55.88) (xy 181.61 128.27)
+			(xy 181.737 55.88) (xy 181.737 125.476)
 		)
 		(stroke
 			(width 0)
@@ -2335,6 +2375,16 @@
 			(type default)
 		)
 		(uuid "edd8887e-a58b-4512-b434-5316b4cbaf2b")
+	)
+	(wire
+		(pts
+			(xy 179.07 132.588) (xy 188.976 132.588)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f424a862-a6a9-4f30-90f3-c3a9073988de")
 	)
 	(wire
 		(pts
@@ -2739,6 +2789,74 @@
 			(project "schematic-main"
 				(path "/c9ad7189-d3b2-414a-9743-efd8e57cd755"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 111.633 159.004 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43dda3c5-2bca-40c5-bf51-1d92746a37dc")
+		(property "Reference" "J4"
+			(at 102.743 157.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 102.743 160.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:39-30-102Y"
+			(at 111.633 159.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.633 159.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.633 159.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e66d1881-b0df-47c6-8bd4-4a0a0dbfa213")
+		)
+		(pin "2"
+			(uuid "3800b96d-b68f-4048-9de1-3e7bab41342f")
+		)
+		(instances
+			(project "schematic-main"
+				(path "/c9ad7189-d3b2-414a-9743-efd8e57cd755"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -3959,6 +4077,72 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "power:GND")
+		(at 116.713 161.544 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8d7f47a-30c6-44b6-9b08-b177fc9f9b17")
+		(property "Reference" "#PWR031"
+			(at 116.713 167.894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.713 166.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.713 161.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.713 161.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.713 161.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55c54b02-5dfe-4cd6-b454-79b7dc4c769a")
+		)
+		(instances
+			(project "schematic-main"
+				(path "/c9ad7189-d3b2-414a-9743-efd8e57cd755"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
 		(at 134.62 104.14)
 		(size 44.45 59.69)
@@ -4131,7 +4315,7 @@
 			(uuid "87d9d234-f30e-4a80-8a12-5d8237a0081b")
 		)
 		(pin "I{slash}O_2_MCU" input
-			(at 179.07 130.81 0)
+			(at 179.07 128.016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4141,7 +4325,7 @@
 			(uuid "30d7c2d6-0c06-44fc-82b2-a07f4440a7dc")
 		)
 		(pin "I{slash}O_1_MCU" input
-			(at 179.07 128.27 0)
+			(at 179.07 125.476 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4151,7 +4335,7 @@
 			(uuid "324d58ed-b4b9-4c77-90cc-6f414ff5ca8b")
 		)
 		(pin "I{slash}O_3_MCU" input
-			(at 179.07 133.35 0)
+			(at 179.07 130.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4159,6 +4343,36 @@
 				(justify right)
 			)
 			(uuid "e29c0760-7cb7-4786-875b-67bea0f1ae22")
+		)
+		(pin "I{slash}O_4_MCU" input
+			(at 179.07 132.588 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0de9d95b-2fea-4643-bdc5-3dee1970a95c")
+		)
+		(pin "Emergency_button" input
+			(at 134.62 159.004 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0350044c-a940-4cc3-a442-b1372b5220ae")
+		)
+		(pin "Emergency_MCU" input
+			(at 163.703 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "65c90f64-507e-4011-a45a-585949b45849")
 		)
 		(instances
 			(project "schematic-main"
@@ -4385,6 +4599,26 @@
 				(justify right)
 			)
 			(uuid "81f66bea-647c-4fed-b27b-b2500e63b27c")
+		)
+		(pin "I{slash}O_4_MCU" output
+			(at 179.07 48.387 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "62fa6986-f563-4e71-9c56-2cff3d8960b9")
+		)
+		(pin "Emergency_MCU" output
+			(at 163.703 81.28 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9c15a69f-8ac4-42ea-aea6-de43163c0b2c")
 		)
 		(instances
 			(project "schematic-main"

@@ -3023,10 +3023,6 @@
 		(uuid "7d74a63e-2f06-4076-857f-d917c372596e")
 	)
 	(no_connect
-		(at 195.58 113.03)
-		(uuid "7ef85aa0-76c8-4fd6-899c-2c0dc0fc92aa")
-	)
-	(no_connect
 		(at 195.58 140.97)
 		(uuid "82747400-9b92-46ca-8c1d-e1466d72d0f9")
 	)
@@ -4354,6 +4350,18 @@
 		)
 		(uuid "8f77bc8c-01b1-40c5-bbf9-af212be39e36")
 	)
+	(hierarchical_label "Emergency_MCU"
+		(shape output)
+		(at 195.58 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "abce3f4d-1dd3-4c8c-94f8-ab949a6d26ff")
+	)
 	(hierarchical_label "MOTOR_ON_OFF_MCU"
 		(shape output)
 		(at 191.77 120.65 180)
@@ -4365,6 +4373,18 @@
 			(justify right)
 		)
 		(uuid "aea273bc-b4e2-408d-9771-3732bdf599ff")
+	)
+	(hierarchical_label "I{slash}O_4_MCU"
+		(shape output)
+		(at 261.62 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b8f51530-3796-463f-b812-d73bb4c908ff")
 	)
 	(hierarchical_label "PWM_MCU"
 		(shape output)
