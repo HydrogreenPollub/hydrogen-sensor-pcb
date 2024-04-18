@@ -2955,10 +2955,6 @@
 		(uuid "0426d8ef-b514-41d9-965c-051216f732db")
 	)
 	(no_connect
-		(at 220.98 69.85)
-		(uuid "09077b2b-aa31-41bf-b26b-bf97ba0a28d5")
-	)
-	(no_connect
 		(at 195.58 123.19)
 		(uuid "0a872f02-0b57-40fb-bccd-1e98cad58ecc")
 	)
@@ -4058,6 +4054,16 @@
 			(justify left bottom)
 		)
 		(uuid "0e85a353-1f9e-4289-9da4-d82d05951262")
+	)
+	(text "drut do +3.3"
+		(exclude_from_sim no)
+		(at 213.614 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3ff25331-edf0-4426-a48f-3543966a6be7")
 	)
 	(text "Boot button"
 		(exclude_from_sim no)
@@ -7517,7 +7523,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e1fb3b2d-7b48-4a10-b8d2-3a8004e4da81")
 		(property "Reference" "C18"
 			(at 206.375 55.8799 0)
@@ -7529,7 +7534,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 206.375 58.4199 0)
+			(at 207.01 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1985,6 +1985,12 @@
 		(uuid "8cdf0524-e29c-430c-8254-505d7b7a5263")
 	)
 	(junction
+		(at 229.87 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a04d4378-d2c6-461f-b501-5f9e981c4961")
+	)
+	(junction
 		(at 229.87 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2137,16 +2143,6 @@
 			(type default)
 		)
 		(uuid "09da0e2c-0811-4e62-885f-a09067347196")
-	)
-	(wire
-		(pts
-			(xy 229.87 83.82) (xy 246.38 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b7bd333-2ab0-49be-ac8d-c6ce691140e3")
 	)
 	(wire
 		(pts
@@ -2650,6 +2646,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 91.44) (xy 229.87 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f2f33e0-6030-45f4-b3f5-b0c0160b1aac")
+	)
+	(wire
+		(pts
 			(xy 167.64 78.74) (xy 185.42 78.74)
 		)
 		(stroke
@@ -2857,6 +2863,16 @@
 			(type default)
 		)
 		(uuid "e0e5f012-861c-4f80-baae-02f7b06c39a7")
+	)
+	(wire
+		(pts
+			(xy 246.38 83.82) (xy 246.38 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e24cc21f-29b1-42ed-b189-c67d66e72537")
 	)
 	(wire
 		(pts
@@ -4891,7 +4907,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "56k"
+		(property "Value" "6k"
 			(at 118.745 84.2009 0)
 			(effects
 				(font

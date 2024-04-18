@@ -2789,6 +2789,18 @@
 		)
 		(uuid "2acb8aed-0540-47fb-8a3e-81f6ffc9ec86")
 	)
+	(text "Zamontować na próbę tylko R38 i R36 -1k \n\nR37 zastąpić diodą zenera 3,5V"
+		(exclude_from_sim no)
+		(at 153.67 148.336 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "43c6c1bf-d962-42fb-9cae-053a44025c82")
+	)
 	(text "Termination node (resistors and capacitor)\nmay be omitted during assembly if not required."
 		(exclude_from_sim no)
 		(at 39.37 85.09 0)
@@ -2879,12 +2891,10 @@
 	)
 	(text "Rezystory tworzą dzielnik napięcia \nPrzycisk przełączny podaje +12V z cewki\nLub podciągnięcie do góry i przycisk tylko sygnalizacyjny"
 		(exclude_from_sim no)
-		(at 150.622 149.606 0)
+		(at 144.018 162.052 0)
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
 			)
 		)
 		(uuid "b83f0107-8c60-4774-a69c-8c718224084f")
